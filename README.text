@@ -1,0 +1,62 @@
+SWN Sector Generator
+===================
+
+A utility for use with [Stars Without Number](http://www.sinenomine-pub.com/).
+
+
+## Contents
+The zip file that you've unpacked contains the following items:
+
+* This README file
+* A 'GM version' of the sector that you generated
+* A 'PC version' of the sector that you generated
+* A star map image file (if you generated the sector in Internet Explorer)
+
+
+## How to Use
+Open the GM version of the sector wiki in your browser and have a look around.
+In particular, check out the 'GM Info' article. It will help you to use these
+pre-generated sectors to their best effect. If you aren't familiar with how
+[TiddlyWiki][] works, check out the excellent documentation at the TiddlyWiki
+website.
+
+[TiddlyWiki]: http://www.tiddlywiki.com/
+
+
+## Other Cool Things to Know
+If you use any browser other than Internet Explorer to generate your sector,
+you will get a version of the sector wiki where the star map image is embedded
+directly in the HTML file. This is particularly useful if you own an iPad,
+because then you can use the extremely cool [TWEdit][] app to view and
+edit your sector wiki directly on the iPad, with a fully interactive star map.
+
+[TWEdit]: http://itunes.apple.com/us/app/twedit/id409607956?mt=8
+
+
+## Credits
+The SWN Sector Generator
+Copyright © 2011 N. Harrison Ripps <swn_generator@emichron.com>
+
+This utility is based on and written for use with the **Stars Without Number**
+Science Fiction Roleplaying Game by [Sine Nomine Publishing][]
+
+TiddlyWiki and the various TiddlyWiki Plugins used in this distribution are
+copyright to their respective owners. See "Backstage -> Plugins" in either of
+the wiki files for more info.
+
+* [Perl](http://www.perl.org/) and several freely available Perl Libraries are
+  used to generate the sector and star map:
+** [Archive::Zip](http://search.cpan.org/~adamk/Archive-Zip-1.30/lib/Archive/Zip.pm)
+** [Cwd](http://search.cpan.org/~smueller/PathTools-3.33/Cwd.pm)
+** [Data::RandomPerson](http://search.cpan.org/~peterhi/Data-RandomPerson-0.4/lib/Data/RandomPerson.pm)
+** [DBI](http://search.cpan.org/~timb/DBI-1.616/DBI.pm)
+** [GD](http://search.cpan.org/~lds/GD-2.46/GD.pm)
+** [GD::Text](http://search.cpan.org/~mverb/GDTextUtil-0.86/Text.pm)
+** [MIME::Base64](http://search.cpan.org/~gaas/MIME-Base64-3.13/Base64.pm)
+* [SQLite](http://www.sqlite.org/) is used to store and retrieve table data
+  used throughout the wiki entries.
+* Extra name generation help came directly from [Chris Pound][]'s amazing
+  language generators.
+
+[Sine Nomine Publishing]: http://www.sinenomine-pub.com/
+[Chris Pound]: http://www.ruf.rice.edu/~pound/
